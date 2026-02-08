@@ -11,12 +11,12 @@ export default defineConfig({
       manifest: {
         name: "Slab Vault - Pokemon Slab Flipper",
         short_name: "Slab Vault",
-        description: "Track your Pokemon slab flips, portfolio, and analytics - 100% local.",
+        description: "Track your Pokemon slab flips locally.",
         theme_color: "#0a0a0f",
         background_color: "#0a0a0f",
         display: "standalone",
         orientation: "portrait",
-        start_url: "/slab-vault/",
+        start_url: "/",
         icons: [
           { src: "icon-192.png", sizes: "192x192", type: "image/png" },
           { src: "icon-512.png", sizes: "512x512", type: "image/png" },
